@@ -1,19 +1,18 @@
-# Graph-Analysis-on-youtube-scaring-data
+### Graph-Analysis-on-youtube-scaring-data
 # Jennifer Jenikins video's analises
-#
-#  pZvf2DsYGzE, BZUtM-McyJk, WUZehy-2eHc, ky_1LIZWPDI, XCvqwFInXes&t=942s
-setwd( "/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/DataCamp_data")
-### Getting YouTube data
-# install.packages("vosonSML") https://github.com/vosonlab/vosonSML
-library(vosonSML)
-# gogl developer API key
+this script was created for my frind on You tube to implement her network and Sentiment Analysis og the comments    
+     #the links id is   pZvf2DsYGzE, BZUtM-McyJk, WUZehy-2eHc, ky_1LIZWPDI, XCvqwFInXes&t=942s
+     setwd( "/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/DataCamp_data")
+    ### Getting YouTube data
 
-# Use this key in your application by passing it with the key=API_KEY parameter.
-#   https://console.cloud.google.com/apis/credentials?project=marine-pillar-192807
+   library(vosonSML)
+    # gogl developer API key
 
-apikey <- "AIzaSyByeVdhmwfgwQ3kVfGqDdziydQuF4TMbf0"
+     # Use this key in your application by passing it with the key=API_KEY parameter.
 
-key <- AuthenticateWithYoutubeAPI(apiKeyYoutube=apikey)
+    apikey <- "AIzaSyByeVdhmwfgwQ3kVfGqDdziydQuF4TMbf0"
+
+    key <- AuthenticateWithYoutubeAPI(apiKeyYoutube=apikey)
 
 
 ## Collecting data using youtube  hartbr S_CYdTmj7lA
