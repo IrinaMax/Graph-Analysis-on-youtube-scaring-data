@@ -59,6 +59,8 @@ After we collect data we save it and it can be used later as well
           edge.arrow.size = 0.3,
           vertex.label.cex = 0.01*V(net)$degree)
 
+!https://github.com/IrinaMax/Graph-Analysis-on-youtube-scaring-data/issues/1#issue-416686282
+
      # install.packages("syuzhet")
      library(syuzhet)
 
