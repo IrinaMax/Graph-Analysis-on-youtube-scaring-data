@@ -59,7 +59,7 @@ After we collect data we save it and it can be used later as well
           edge.arrow.size = 0.3,
           vertex.label.cex = 0.01*V(net)$degree)
 
-!https://github.com/IrinaMax/Graph-Analysis-on-youtube-scaring-data/issues/1#issue-416686282
+![rplot](https://user-images.githubusercontent.com/16123495/53720427-9960bd00-3e15-11e9-8437-e890f3dd64ab.png)
 
      # install.packages("syuzhet")
      library(syuzhet)
