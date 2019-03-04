@@ -1,12 +1,13 @@
 ### Graph and Sentiment Analysis of youtube actor
 ## Jennifer Jenikins video's analises
 this script was created for my frind on You tube to implement her network and Sentiment Analysis og the comments    
+     
      #the links id is   pZvf2DsYGzE, BZUtM-McyJk, WUZehy-2eHc, ky_1LIZWPDI, XCvqwFInXes&t=942s
      setwd( "/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/DataCamp_data")
     ### Getting YouTube data
 
-   library(vosonSML)
-    # gogl developer API key
+     library(vosonSML)
+     # gogl developer API key
 
      # Use this key in your application by passing it with the key=API_KEY parameter.
 
@@ -21,7 +22,7 @@ this script was created for my frind on You tube to implement her network and Se
     ytjj %>% str
     write.csv(ytjj, '/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/DataCamp_data/ytjj.csv', row.names = F)
 
-### After we collect data we save it and it can be used later as well
+After we collect data we save it and it can be used later as well
 
     
     data <- read.csv("ytjj.csv", header = T)
