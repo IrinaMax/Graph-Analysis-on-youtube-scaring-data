@@ -58,10 +58,10 @@ After we collect data we save it and it can be used later as well
           vertex.size = 0.2*V(net)$degree,
           edge.arrow.size = 0.3,
           vertex.label.cex = 0.01*V(net)$degree)
-
 ![rplot](https://user-images.githubusercontent.com/16123495/53720427-9960bd00-3e15-11e9-8437-e890f3dd64ab.png)
-
-     # install.packages("syuzhet")
+   
+Let's do Sentiment analysis for this comments
+     
      library(syuzhet)
 
      comments <- iconv(data$Comment, to = 'utf-8-mac')
@@ -83,7 +83,8 @@ We can create a siple barplot or colerful
         col = rainbow(10),
         ylab = "Percentage",
         main = "Sentiment Scores For YouTube Jenifer's video Comments")
-
+        
+![jenifer_barplot_sentiment](https://user-images.githubusercontent.com/16123495/53720513-ce6d0f80-3e15-11e9-9d9a-93f350e8a788.png)
 
     jj_youtube <- CreateActorNetwork(ytjj, writeToFile = FALSE)
     jj_youtube
