@@ -1,9 +1,9 @@
 ### Graph and Sentiment Analysis of youtube actor
 ## Jennifer Jenikins video's analises
-this script was created for my frind on You tube to implement her network and Sentiment Analysis og the comments    
+this script was created for my frind on You tube to implement her network and Sentiment Analysis of the comments of some of her video    
      
      #the links id is   pZvf2DsYGzE, BZUtM-McyJk, WUZehy-2eHc, ky_1LIZWPDI, XCvqwFInXes&t=942s
-     setwd( "/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/DataCamp_data")
+     setwd( "/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE")
     ### Getting YouTube data
 
      library(vosonSML)
@@ -103,11 +103,12 @@ We can create a siple barplot or colerful
      videojj <- c('pZvf2DsYGzE', 'BZUtM-McyJk', 'WUZehy-2eHc', 'ky_1LIZWPDI', 'XCvqwFInXes&t=942s')
    
     #next scrip does the same as CollectDataYoutube
+    # we use the same apikey as used previously 
      youtubeData <- Authenticate("youtube", apiKey = apikey) %>% 
            Collect(videoIDs = videojj, writeToFile = TRUE, verbose = FALSE, maxComments = 200)
   
      youtubeData %>% str
-     write.csv(youtubeData, '/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/DataCamp_data/ytjj_2019.csv', row.names = F)
+     write.csv(youtubeData, '/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/ytjj_2019.csv', row.names = F)
 
 
      
