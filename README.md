@@ -123,6 +123,8 @@ Colorful d3heatmap plot of sentiment, based on clustering of interacted people
      library(d3heatmap)
      d3heatmap(s[1:100,], scale = "column")
      
+  ![JJ_youtube_hitmap](https://user-images.githubusercontent.com/16123495/54256330-e250f980-4518-11e9-8e84-dc7b4e7254af.png)
+
 You also can present top best of more interested sentiment         
 
      d3heatmap(s[1:100,], scale = "column")
