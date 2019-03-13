@@ -3,7 +3,7 @@ https://www.youtube.com/channel/UCyBNa0MJigRNsGl-II6Gdcg
 ![Screenshot 2019-03-12 23 25 23](https://user-images.githubusercontent.com/16123495/54257931-3ca08900-451e-11e9-892a-c81feb5e53a6.png)
 
 
-## Jennifer Jenkins video's analises
+## Jenifer Jenkins video's analises
 this script was created for my frind on You tube to implement her network and Sentiment Analysis of the comments of some of her video    
      
      #the links id is   pZvf2DsYGzE, BZUtM-McyJk, WUZehy-2eHc, ky_1LIZWPDI, XCvqwFInXes&t=942s
