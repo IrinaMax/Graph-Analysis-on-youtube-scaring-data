@@ -1,5 +1,5 @@
 ### Graph and Sentiment Analysis of youtube actor
-## Jennifer Jenikins video's analises
+## Jennifer Jenkins video's analises
 this script was created for my frind on You tube to implement her network and Sentiment Analysis of the comments of some of her video    
      
      #the links id is   pZvf2DsYGzE, BZUtM-McyJk, WUZehy-2eHc, ky_1LIZWPDI, XCvqwFInXes&t=942s
