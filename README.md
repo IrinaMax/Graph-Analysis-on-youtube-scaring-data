@@ -96,7 +96,7 @@ We can create a siple barplot or colerful
 
 
 
- after update in the vosonSML I revise my code 
+ after update in the vosonSML library I revise my code 
 
     # create a list of youtube video ids to collect on
     apikey <- "xxxthis is my key"
@@ -116,3 +116,13 @@ We can create a siple barplot or colerful
          Collect(videoIDs = videojj) %>%
          Create("actor", writeToFile = TRUE)
          actorNetwork %>% str
+         
+Colorful d3heatmap plot of sentiment, based on clustering of interacted people   
+         
+     #install.packages("d3heatmap")
+     library(d3heatmap)
+     d3heatmap(s[1:100,], scale = "column")
+     
+You also can present top best of more interested sentiment         
+
+     d3heatmap(s[1:100,], scale = "column")
