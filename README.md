@@ -1,4 +1,6 @@
 ### Graph and Sentiment Analysis of youtube actor
+!https://github.com/IrinaMax/Graph-and-Sentiment-Analysis-on-youtube-scraping-data/issues/4#issue-420336748
+
 ## Jennifer Jenkins video's analises
 this script was created for my frind on You tube to implement her network and Sentiment Analysis of the comments of some of her video    
      
