@@ -139,3 +139,15 @@ Colorful d3heatmap plot of sentiment, based on clustering of interacted people
 You also can present top best of more interested sentiment in separate table or knitr it        
 
      knitr::kable(s[1:20,c("negative", "neautral", "positive")])
+     | negative| neautral| positive|
+     |--------:|--------:|--------:|
+     |        0|        0|        1|
+     |        0|        0|        1|
+     |        0|        0|        1|
+     |        0|        0|        1|
+     |        0|        1|        0|
+     |        0|        0|        1|
+     |        0|        0|        3|
+     |        2|        0|        5|
+     ---------
+     #End
