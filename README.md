@@ -77,7 +77,14 @@ Let's do Sentiment analysis for this comments
     #Create the neutral
     s$neautral <- ifelse(s$negative + s$positive ==0, 1, 0)
     s %>% head(10)
-    s$anger
+    #The output 
+    > anger anticipation disgust fear joy sadness surprise trust negative positive neautral
+      1     0            0       0    0   0       0        0     0        0        1        0
+      2     0            0       0    0   0       0        0     0        0        1        0
+      3     0            1       0    0   1       0        0     1        0        1        0
+      4     0            0       0    0   0       0        0     1        0        1        0
+      5     0            0       0    0   0       0        0     0        0        0        1
+      6     0            0       0    0   1       0        0     0        0        1        0
 
 We can create a siple barplot or colerful
   
@@ -129,6 +136,6 @@ Colorful d3heatmap plot of sentiment, based on clustering of interacted people
      
   ![JJ_youtube_hitmap](https://user-images.githubusercontent.com/16123495/54256330-e250f980-4518-11e9-8e84-dc7b4e7254af.png)
 
-You also can present top best of more interested sentiment         
+You also can present top best of more interested sentiment in separate table or knitr it        
 
-     d3heatmap(s[1:100,], scale = "column")
+     knitr::kable(s[1:20,c("negative", "neautral", "positive")])
