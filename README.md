@@ -24,7 +24,7 @@ this script was created for my frind on You tube to implement her network and Se
     videojj <- c('pZvf2DsYGzE', 'BZUtM-McyJk', 'WUZehy-2eHc', 'ky_1LIZWPDI', 'XCvqwFInXes&t=942s')
     ytjj <- CollectDataYoutube(videojj, key, writeToFile = FALSE) # depricated look at the end of the file for update
     ytjj %>% str
-    write.csv(ytjj, '/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/DataCamp_data/ytjj.csv', row.names = F)
+    write.csv(ytjj, '/Users/../ytjj.csv', row.names = F)
 
 After we collect data we save it and it can be used later as well
 
@@ -119,7 +119,7 @@ We can create a siple barplot or colerful
            Collect(videoIDs = videojj, writeToFile = TRUE, verbose = FALSE, maxComments = 200)
   
      youtubeData %>% str
-     write.csv(youtubeData, '/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE/ytjj_2019.csv', row.names = F)
+     write.csv(youtubeData, '/Users/../DATA_SCIENCE/ytjj_2019.csv', row.names = F)
 
 
      
