@@ -5,7 +5,7 @@ https://www.youtube.com/channel/UCyBNa0MJigRNsGl-II6Gdcg
 
 ## Jenifer Jenkins video's analises
 this script was created for my friend the You tube to implement Sentiment Analysis with NLP on her network, score the emotional comments of some of her video and 
-visually evaluate sentiment in barplot, heatmap and grapf network
+visually evaluate sentiment in barplot, heatmap and graph network
      
      #the links id is   pZvf2DsYGzE, BZUtM-McyJk, WUZehy-2eHc, ky_1LIZWPDI, XCvqwFInXes&t=942s
      setwd( "/Users/irinamahmudjanova/Documents/STUDY/DATA_SCIENCE")
